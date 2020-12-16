@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.vaz.covid_19dadosdobrasil.R;
-import com.vaz.covid_19dadosdobrasil.activity.MainActivity;
 import com.vaz.covid_19dadosdobrasil.model.State;
 
 import java.util.List;
