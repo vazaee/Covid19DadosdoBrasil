@@ -120,9 +120,12 @@ public class MainActivity extends AppCompatActivity {
 
 
             for (State state : states){
-                String stateName = normalizeString(state.getState());
+                String stateName    = normalizeString(state.getState());
+                String ufName       = normalizeString(state.getUf());
+                text                = text.toLowerCase();
 
-                if (stateName.toLowerCase().contains(text.toLowerCase())){
+                if (stateName.toLowerCase().contains(text)
+                        || ufName.toLowerCase().contains(text)){
                     filtered.add(state);
                 }
             }
