@@ -1,4 +1,4 @@
-# Covid19DadosdoBrasil
+# Covid19 Dados do Brasil
 Esta aplicação tem como intuito facilitar o acesso a informações sobre a Covid-19 referente aos estados brasileiros. Este projeto foi criado como parte do processo seletivo do "Formação em Tech - Mobile Android" da empresa 4all.
 
 |                                 |                                 |                                 |                                 |
