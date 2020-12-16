@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -18,6 +21,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.PopupMenu;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -95,8 +99,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Task task = new Task();
-        task.execute("https://covid19-brazil-api.now.sh/api/report/v1");
+        if(Connection.isOnline(getApplicationContext())){
+            Task task = new Task();
+            task.execute("https://covid19-brazil-api.now.sh/api/report/v1");
+        }else{
+            Toast.makeText(getApplicationContext(),
+                    "Sem conexão. Verifique sua internet e reinicie o app!",
+                    Toast.LENGTH_LONG).show();
+        }
+
 
     }
 

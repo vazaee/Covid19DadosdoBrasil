@@ -1,5 +1,9 @@
 package com.vaz.covid_19dadosdobrasil.model;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,6 +11,16 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class Connection {
+
+    public static boolean isOnline(Context context) {
+        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+
+        if(networkInfo == null || !networkInfo.isConnected() || !networkInfo.isAvailable()){
+            return false;
+        }
+        return true;
+    }
 
     public static String getData(String uri){
 
