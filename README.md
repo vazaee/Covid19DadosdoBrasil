@@ -8,8 +8,8 @@ Esta aplicação tem como intuito facilitar o acesso a informações sobre a Cov
 
 ### Tecnologias e pacotes utilizados:
 
-- [Java](https://dart.dev/) como linguagem principal.
-- [Android Studio](www.google.com) como IDE utilizada.
+- [Java](https://www.java.com/pt-BR/) como linguagem principal.
+- [Android Studio](https://developer.android.com/studio) como IDE utilizada.
 
 ## Autor
 
