@@ -10,7 +10,7 @@ Esta aplicação tem como intuito facilitar o acesso a informações sobre a Cov
 
 - [Java](https://www.java.com/pt-BR/) como linguagem principal.
 - [Android Studio](https://developer.android.com/studio) como IDE utilizada.
-- [COVID-19 Brazil API](https://covid19-brazil-api.now.sh/) API utilizada para recuperar dados referentes a Covid-19.
+- [COVID-19 Brazil API](https://covid19-brazil-api.now.sh/) utilizada para recuperar dados referentes a Covid-19.
 
 ## Autor
 
