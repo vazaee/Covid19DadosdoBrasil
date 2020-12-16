@@ -6,7 +6,7 @@ Esta aplicação tem como intuito facilitar o acesso a informações sobre a Cov
 | ![01](./screenshots/white1.jpeg) | ![02](./screenshots/white2.jpeg) | ![03](./screenshots/black1.jpeg) | ![04](./screenshots/black2.jpeg) |
 |                                  |                                  |                                  |                                  |
 
-### Tecnologias utilizadas:
+## Tecnologias utilizadas:
 
 - [Java](https://www.java.com/pt-BR/) como linguagem principal.
 - [Android Studio](https://developer.android.com/studio) como IDE utilizada.
