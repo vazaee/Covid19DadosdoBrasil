@@ -12,6 +12,11 @@ Esta aplicação tem como intuito facilitar o acesso a informações sobre a Cov
 - [Android Studio](https://developer.android.com/studio) como IDE utilizada.
 - [COVID-19 Brazil API](https://covid19-brazil-api.now.sh/) utilizada para recuperar dados referentes a Covid-19.
 
+## Diferenciais
+- Este aplicativo possui recurso de acessibilidade para deficientes visuais.
+- Dados são consumidos de serviços de terceiros.
+- Tema atual e pertinente para a sociedade.
+
 ## Autor
 
 <table>
