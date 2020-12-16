@@ -17,6 +17,7 @@
     <style name="MyDialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
         <item name="android:background">@color/white</item>
         <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
